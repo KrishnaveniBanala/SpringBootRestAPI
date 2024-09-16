@@ -48,7 +48,7 @@ public class StudentService {
 		repo.deleteById(rollNo);
 		return "deleted"  +rollNo;
 	}else {
-		return "id not there";
+		return "id not there in rest API";
 	}
 		
 	}
