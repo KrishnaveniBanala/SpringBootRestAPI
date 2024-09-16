@@ -46,7 +46,7 @@ public class StudentService {
 	public String deleteStudent(int rollNo) {
 		if(repo.existsById(rollNo)) {
 		repo.deleteById(rollNo);
-		return "deleted"  +rollNo;
+		return "deleted id"  +rollNo;
 	}else {
 		return "id not there in rest API";
 	}
